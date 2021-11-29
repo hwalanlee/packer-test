@@ -6,7 +6,7 @@
             "source_ami": "ami-003ef1c0e2776ea27",
             "instance_type": "t2.micro",
             "ssh_username": "ec2-user",
-            "ssh_keypair_name": "lanKeyPair"
+            "ssh_private_key_file": "lanKeyPair"
         }
     ]
 }
