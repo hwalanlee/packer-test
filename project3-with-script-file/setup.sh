@@ -6,10 +6,12 @@ sudo yum update
 sudo amazon-linux-extras install epel -y
 sudo yum-config-manager --enable epel
 sudo yum -y install nodejs
-sudo yum install git
+sudo yum -y install git
 git clone https://github.com/hwalanlee/simple-nodejs.git
 cd simple-nodejs/
 sudo npm install forever -g
 sudo forever start index.js
 
 
+# curl -sL https://rpm.nodesource.com/setup_14.x | sudo -E bash -
+# sudo yum install nodejs
