@@ -7,8 +7,8 @@ sudo yum -y install git
 git clone https://github.com/hwalanlee/simple-nodejs.git
 cd simple-nodejs/
 sudo npm install forever -g
-crontab -l > crontab_new 
-echo "@reboot /home/ec2-user/atbooting.sh" >> crontab_new
-crontab crontab_new
-rm crontab_new
-chmod +x /home/ec2-user/atbooting.sh
+sudo crontab -l > crontab_new 
+sudo echo "@reboot /home/ec2-user/atbooting.sh" >> crontab_new
+sudo crontab crontab_new
+sudo rm crontab_new
+sudo chmod +x /home/ec2-user/atbooting.sh
