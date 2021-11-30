@@ -9,7 +9,7 @@
             "access_key": "{{user `access_key`}}",
             "secret_key": "{{user `secret_key`}}",
             "region": "ap-northeast-2",
-            "ami_name": "ami-inline-provisioner",
+            "ami_name": "ami-script-provisioner",
             "source_ami": "ami-003ef1c0e2776ea27",
             "instance_type": "t2.micro",
             "ssh_username": "ec2-user"            
