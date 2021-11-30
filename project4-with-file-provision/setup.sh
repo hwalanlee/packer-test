@@ -12,4 +12,4 @@ sudo npm install forever -g
 sudo echo "@reboot /home/ec2-user/atbooting.sh" >> crontab
 # sudo crontab crontab_new
 # sudo rm crontab_new
-sudo chmod +x /home/ec2-user/atbooting.sh
+# sudo chmod +x /home/ec2-user/atbooting.sh
