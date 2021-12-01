@@ -10,3 +10,9 @@ sudo npm install forever -g
 sudo cp /home/ec2-user/atbooting.sh /etc/init.d
 sudo chkconfig --add /etc/init.d/atbooting.sh
 sudo chkconfig --level 35 atbooting.sh on
+
+
+
+
+sudo cp /home/ec2-user/atbooting.sh /var/lib/cloud/scripts/per-boot
+sudo chmod +x atbooting.sh
