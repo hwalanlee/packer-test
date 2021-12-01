@@ -17,13 +17,13 @@
     ],
     "provisioners": [
         {
-            "type": "shell",
-            "script": "setup.sh"
-        },
-        {
             "type": "file",
             "source": "atbooting.sh",
             "destination": "/home/ec2-user/"
+        },
+        {
+            "type": "shell",
+            "script": "setup.sh"
         }
     ]
 }
