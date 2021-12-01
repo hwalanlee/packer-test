@@ -5,3 +5,4 @@ sleep 10
 cd ~
 cd simple-nodejs/
 forever start --minUptime 3000 --spinSleepTime 3000  index.js > reboot.logs
+echo "helloooo" >> ~/"here.txt"
